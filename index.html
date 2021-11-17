@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto 01</title>
+
+    <!-- Icones -->
+    <link rel="stylesheet" href="Assets/Fonts/style fonts.css" />
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Me<span>desculpa</span>.</a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Motivos</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Home -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="Assets/Images/imagem 1.jpg"
+              alt="Homem chorando e segurando uma câmera"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Errar é humano...</h2>
+            <p>
+              E por isso venho apresentar 5 motivos para que você não guarde
+              mágoas de quem vacilou com você!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- About -->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="Assets/Images/imagem 2.jpg"
+              alt="Chaves - Volta o cão arrependido"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">5 motivos para perdoar Karoline Schlemper</h2>
+
+            <p>
+              1 - Ela criou esse site se humilhando - acho que nem precisava
+              mais motivos do que esse!
+            </p>
+            <br />
+            <p>
+              2 - Detraxit consequat et quo num tendi nada. Manduma pindureta
+              quium dia nois paga. Suco de cevadiss, é um leite divinis, qui tem
+              lupuliz, matis, aguis e fermentis. Sed non ipsum felis.
+            </p>
+            <br />
+            <p>
+              3 - Eiiitaaa Mainhaaa!! Esse Lorem ipsum é só na sacanageeem!! E
+              que abundância meu irmão viuu!! Assim você vai matar o papai.
+              Agora use meu lorem ipsum ordinária!!!
+            </p>
+            <br />
+            <p>
+              4 - Aqui é Body Builder Ipsum! Eu quero esse 13 daqui a pouquinho
+              aí. Tá saindo da jaula o monstro! Sabe o que é isso daí?
+            </p>
+            <br />
+            <p>
+              5 - Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Doloribus beatae corrupti quisquam assumenda.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- Testimonials -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    A Karol joga y joga
+                  </p>
+                  <cite>
+                    <img
+                      src="Assets/Images/mascote.jpeg"
+                      alt="Foto do Mascote do Avaí"
+                    />
+                    Mascote do Avaí
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Yes, we can!
+                  </p>
+                  <cite>
+                    <img
+                      src="Assets/Images/Obama.jpg"
+                      alt="Foto de Barack Obama"
+                    />
+                    Barack Obama
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    As únicas pessoas que nunca fracassam são as que nunca
+                    tentam.
+                  </p>
+                  <cite>
+                    <img
+                      src="Assets/Images/desconhecido.png"
+                      alt="Foto de Autor desconhecido"
+                    />
+                    Autor Desconhecido
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- Contact -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato!</h2>
+            <p>
+              Entre em contato com a Karol para tirar suas dúvidas, ouvir suas
+              críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone==554891270783&text=Ola! Eu aceito as desculpas"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 48 9127-0783</li>
+              <li><i class="icon-map-pin"></i> Rua Pedro Bunn, xxxx</li>
+              <li><i class="icon-mail"></i>schlemperkaroline@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home"
+            >Karoline<span>Schlemper</span>.</a
+          >
+          <p>©2021 Karoline Schlemper.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+
+        <div class="social">
+          <a href="https://instagram.com/schlemperkaroline" target="_blank">
+            <i class="icon-instagram"></i
+          ></a>
+          <a href="https://facebook.com" target="_blank">
+            <i class="icon-facebook"></i
+          ></a>
+          <a href="https://youtube.com" target="_blank">
+            <i class="icon-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Main.js -->
+    <script src="main.js"></script>
+  </body>
+</html>
